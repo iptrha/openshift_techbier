@@ -5,7 +5,6 @@ metadata:
   labels:
     app: s2i-openjdk
 spec:
-  triggers: {}
   source:
     type: Git
     git:
@@ -14,8 +13,6 @@ spec:
     contextDir: 2_s2i-openjdk_setup/docker
   strategy:
     type: Docker
-    dockerStrategy:
-      dockerfilePath: Dockerfile
   output:
     to:
       kind: ImageStreamTag
