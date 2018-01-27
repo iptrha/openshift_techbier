@@ -3,7 +3,7 @@ In this section, we are going to setup the Jenkins Server which will execute our
 
 # Installation
 ```bash
-cd scripts
+cd 0_infrastructure_setup/scripts
 sh install-jenkins.sh
 ```
 
