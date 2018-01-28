@@ -3,17 +3,29 @@ stage ( "build" )
   node ()
   {
     git branch: params.GIT_BRANCH, url: GIT_URL
+
+    sh "oc project build"
+
+    sh "oc apply -f 4_helloworld/openshift/imagestream.yml"
+
     sh "oc apply -f 4_helloworld/openshift/buildconfig.yml"
 
-    sh "oc start-build helloworld"
+    sh "oc start-build helloworld --wait"
   }
 }
 
 stage ( "deploy to devl" )
 {
+  sh "oc project helloworld-devl"
 
+  sh "oc apply -f 4_helloworld/openshift/service.yml"
 
-  sh "oc "
+  sh "oc apply -f 4_helloworld/openshiftroute.yml"
+
+  sh "oc apply -f 4_helloworld/openshift/deploymentconfig.yml"
+
+  openshiftDeploy ( "helloworld" )
+  openshiftVerifyDeployment ( "helloworld" )
 
 }
 
