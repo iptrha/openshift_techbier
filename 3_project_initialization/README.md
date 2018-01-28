@@ -8,4 +8,4 @@ In our case, 3 Openshifts projects are created <app_name>**-devl**, <app_name>**
 cd 1_project_initialization/scripts
 sh initialize_project.sh -p <app_name>
 ```
-If no argument is presented, the script initializes the default app ```demoapp```.
+If no argument is presented, the script initializes the default app ```helloworld```.
