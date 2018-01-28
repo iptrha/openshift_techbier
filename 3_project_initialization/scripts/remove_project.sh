@@ -11,8 +11,8 @@ done
 if [[ -n "$PROJECT" ]]; then
   echo "Removing Project $PROJECT"
 else
-  echo "Removing default project demoapp"
-  PROJECT=demoapp
+  echo "Removing default project helloworld"
+  PROJECT=helloworld
 fi
 
 oc delete project $PROJECT-devl

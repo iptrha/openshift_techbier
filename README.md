@@ -8,9 +8,11 @@
 
 ## OSX
 **Q: I am getting ```xcrun: error: (...)``` when running git. What can I do?**
+
 **A:** Install XCode commandline tools ```xcode-select --install``` (see [here]( https://stackoverflow.com/questions/32893412/command-line-tools-not-working-os-x-el-capitan-macos-sierra-macos-high-sierra/32894314#32894314) for more details)
 
 **Q: How to install Minishift on OSX?**
+
 **A:** Make your life easy and install [HomeBrew](https://brew.sh/index_de.html):
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
