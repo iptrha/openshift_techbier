@@ -14,3 +14,5 @@ spec:
           value: "https://github.com/iptrha/openshift_techbier.git"
         - name: GIT_BRANCH
           value: "master"
+        - name: OPENSHIFT_URL
+          value: 192.168.64.2
