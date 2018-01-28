@@ -8,7 +8,7 @@ spec:
       uri: "https://github.com/iptrha/openshift_techbier.git"
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfilePath: 4_helloworld/openshift/pipeline.yml
+      jenkinsfilePath: 4_helloworld/jenkins/Jenkinsfile
       env:
         - name: GIT_URL
           value: "https://github.com/iptrha/openshift_techbier.git"
