@@ -26,6 +26,8 @@ COPY ./s2i/bin/ /usr/libexec/s2i
 
 # Drop the root user and make the content of /opt/app-root owned by user 1001
 RUN chown -R 1001:1001 /opt/app-root && \
+  chown -R 1001:1001 /usr/libexec/s2i && \
+  chmod -R u+x /usr/libexec/s2i && \
 	chmod -R 777 /tmp
 
 # Set default user
