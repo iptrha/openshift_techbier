@@ -31,5 +31,5 @@ spec:
       restartPolicy: Always
       securityContext: {}
       terminationGracePeriodSeconds: 30
-  test: false
   triggers: {}
+status: {}
