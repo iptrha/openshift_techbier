@@ -1,0 +1,33 @@
+stage ( "build" )
+{
+  node ()
+  {
+    git branch: params.GIT_BRANCH, url: GIT_URL
+    sh "oc apply -f openshift/buildconfig.yml"
+
+    sh "start-build helloworld"
+  }
+}
+
+stage ( "deploy to devl" )
+{
+
+
+  sh "oc "
+
+}
+
+stage ( "deploy to test" )
+{
+
+}
+
+stage ( "manual quality gate" )
+{
+
+}
+
+stage ( "deploy to prod" )
+{
+
+}
