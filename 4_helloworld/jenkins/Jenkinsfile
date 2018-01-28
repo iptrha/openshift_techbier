@@ -3,7 +3,7 @@ stage ( "build" )
   node ()
   {
     git branch: params.GIT_BRANCH, url: GIT_URL
-    sh "oc apply -f openshift/buildconfig.yml"
+    sh "oc apply -f 4_helloworld/openshift/buildconfig.yml"
 
     sh "start-build helloworld"
   }
