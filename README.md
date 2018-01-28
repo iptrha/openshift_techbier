@@ -1,7 +1,7 @@
 # Introduction
 # Prerequisites
 1. [Install git](https://git-scm.com/downloads)
-2. [Install Minishift](https://docs.openshift.org/latest/minishift/getting-started/installing.html) (see support section for details how to install on OSX)
+2. [Install Minishift](https://docs.openshift.org/latest/minishift/getting-started/installing.html) (see support section for details how to install)
 3. [Do the "Minishift Quickstart"](https://docs.openshift.org/latest/minishift/getting-started/quickstart.html)
 
 # Support
@@ -22,3 +22,8 @@ sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docke
 sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
 eval $(minishift oc-env)
 ```
+
+## Windows
+**Q: How to install Minishift on OSX?**
+
+**A:** Maybe this guide can help you, if you are lost: [bierkowski.com](https://bierkowski.com/minishift-setup-on-windows/)
