@@ -78,18 +78,18 @@ We have applied a convention throughout the repo that:
 
 * Setup the application pipeline
   * First configure the minishift IP into the pipeline.yml
-  ```
-  cd 4_helloworld/openshift
-  nano pipeline.yml
-  ```
+    ```
+    cd 4_helloworld/openshift
+    nano pipeline.yml
+    ```
 
   * set the ```OPENSHIFT_URL``` to your minishift IP and save
 
   * Create the pipeline
-  ```
-  cd ../scripts
-  sh create_helloworld_pipeline.sh
-  ```
+    ```
+    cd ../scripts
+    sh create_helloworld_pipeline.sh
+    ```
 # Support
 
 ## OSX
