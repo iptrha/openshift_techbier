@@ -52,6 +52,16 @@ We have applied a convention throughout the repo that:
   * While it rödels, feel free to have a look at the code in ```../docker``` and ```../openshift``` (Hint: Contains lots of magic)
 
 
+ * install jenkins
+   ```
+   cd 2_jenkins_setup/scripts
+   sh install-jenkins.sh
+   cd ../..
+   ```
+
+   * This will create the projects ```cicd``` and ```build``` and install jenkins into the cicd project
+   * Learn to pronounce the word "ephemeral". Again: "[Ephemeral](https://de.wiktionary.org/wiki/ephemeral)". It kind of means, when the juice stops, everything is gone. Like Enron stock.
+
 # Support
 
 ## OSX
