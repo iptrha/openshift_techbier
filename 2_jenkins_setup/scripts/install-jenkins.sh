@@ -1,7 +1,6 @@
 #! /bin/bash
 
 # Create new Openshift Project
-oc new-project build
 oc new-project cicd
 
 

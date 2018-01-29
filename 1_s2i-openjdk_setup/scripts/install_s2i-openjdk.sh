@@ -1,6 +1,6 @@
 #! /bin/bash
 
-oc project build
+oc new-project build
 
 oc create imagestream s2i-openjdk
 
