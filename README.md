@@ -29,10 +29,10 @@ We have applied a convention throughout the repo that:
 
 # Installation
 * check out the repo if not done already
-  ```
+  ```
   https://github.com/iptrha/openshift_techbier.git
   cd openshift_techbier
-  ```
+  ```
 
     
 # Support
