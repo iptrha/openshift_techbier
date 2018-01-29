@@ -49,7 +49,7 @@ We have applied a convention throughout the repo that:
   cd ../..
   ```
 
-  * While it rödels, feel free to have a look at the code in ```../docker``` and ```../openshift``` (Hint: Contains lots of magic)
+  * While it rödels, feel free to have a look at the code in ```1_s2i-openjdk/docker``` and ```1_s2i-openjdk/openshift``` (Hint: Contains lots of magic)
 
 
 * install jenkins
