@@ -60,7 +60,7 @@ We have applied a convention throughout the repo that:
   ```
 
   * This will create the projects ```cicd``` and ```build``` and install jenkins into the cicd project
-  * Learn to pronounce the word "ephemeral". Again: "[Ephemeral](https://de.wiktionary.org/wiki/ephemeral)". It kind of means, when the juice stops, everything is gone. Like Enron stock.
+  * Learn to pronounce the word "ephemeral". Again: "[Ephemeral](https://de.wiktionary.org/wiki/ephemeral)". It kind of means, when the juice stops, everything is gone. Like [Enron](https://en.wikipedia.org/wiki/Enron) stock.
 
 
 
