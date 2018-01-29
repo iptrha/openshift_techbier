@@ -67,17 +67,17 @@ We have applied a convention throughout the repo that:
   * Typically this would be executed by an admin
 * Setup the application pipeline
   * First configure the minishift IP into the pipeline.yml
-    ````bash
+    ```bash
     cd 4_helloworld/openshift
     nano pipeline.yml
-    ````
+    ```
   * set the ```OPENSHIFT_URL``` to your minishift IP and save
   
   * Create the pipeline
-    ````bash
+    ```bash
     cd ../scripts
     sh create_helloworld_pipeline.sh
-    ````
+    ```
     
 # Support
 
