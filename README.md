@@ -48,48 +48,10 @@ We have applied a convention throughout the repo that:
   sh install_s2i-openjdk.sh
   cd ../..
   ```
-  
+
+  * While it rödels, feel free to have a look at the code in ```../docker``` and ```../openshift``` (Hint: Contains lots of magic)
 
 
-         * While it rödels, feel free to have a look at the code in ```../docker``` and ```../openshift``` (Hint: Contains lots of magic)
-
-
-       * install jenkins
-         ```
-         cd 2_jenkins_setup/scripts
-         sh install-jenkins.sh
-         cd ../..
-         ```
-         * This will create the projects ```cicd``` and ```build``` and install jenkins into the cicd project
-         * Learn to pronounce the word "ephemeral". Again: "[Ephemeral](https://de.wiktionary.org/wiki/ephemeral)". It kind of means, when the juice stops, everything is gone. Like Enron stock.
-
-
-       * do the project initialization for your application
-         ```
-         cd 3_project_initialization/scripts
-         sh initialize_project.sh
-         cd ../..
-         ```
-
-         * It creates 3 projects ```helloworld-devl```, ```helloworld-test``` and ```helloworld-prod```. These represent the environments (Hint: There is no physical separation of environments, just trust the thing. No, really.)
-         * Also it configures some access rights
-         * Typically this would be executed by an admin
-
-
-       * Setup the application pipeline
-         * First configure the minishift IP into the pipeline.yml
-          ```
-         cd 4_helloworld/openshift
-         nano pipeline.yml
-         ```
-
-         * set the ```OPENSHIFT_URL``` to your minishift IP and save
-
-         * Create the pipeline
-           ```
-           cd ../scripts
-           sh create_helloworld_pipeline.sh
-           ```
 # Support
 
 ## OSX
