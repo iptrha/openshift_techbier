@@ -33,11 +33,21 @@ We have applied a convention throughout the repo that:
   https://github.com/iptrha/openshift_techbier.git
   cd openshift_techbier
   ```
-  * Start the minishift cluster and log in as developer
-    ```
-    minishift start
-    oc login -u developer -p d
-    ```
+* Start the minishift cluster and log in as developer
+  ```
+  minishift start
+  oc login -u developer -p d
+  ```
+
+  * remember the IP of your minishift instance for later
+
+
+* start the s2i build (because it takes a lot of time)
+  ```
+  cd 1_s2i-openjdk/scripts
+  sh install_s2i-openjdk.sh
+  cd ../..
+  ```
 
     
 # Support
