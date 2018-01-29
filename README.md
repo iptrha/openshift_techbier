@@ -62,6 +62,20 @@ We have applied a convention throughout the repo that:
   * This will create the projects ```cicd``` and ```build``` and install jenkins into the cicd project
   * Learn to pronounce the word "ephemeral". Again: "[Ephemeral](https://de.wiktionary.org/wiki/ephemeral)". It kind of means, when the juice stops, everything is gone. Like Enron stock.
 
+
+
+* do the project initialization for your application
+  ```
+  cd 3_project_initialization/scripts
+  sh initialize_project.sh
+  cd ../..
+  ```
+
+  * It creates 3 projects ```helloworld-devl```, ```helloworld-test``` and ```helloworld-prod```. These represent the environments (Hint: There is no physical separation of environments, just trust the thing. No, really.)
+  * Also it configures some access rights
+  * Typically this would be executed by an admin
+
+
 # Support
 
 ## OSX
