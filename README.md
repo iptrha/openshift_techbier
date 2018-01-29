@@ -11,13 +11,13 @@
 
 ## Content
 The git repo consists of 4 folders that represent the four elements we want to look at today:
-* 1_s2i-openjdk_setup
+* **1_s2i-openjdk_setup**
   * Contains the scripts needed to build the s2i (Source-to-Image) builder image
-* 2_jenkins_setup
+* **2_jenkins_setup**
   * Contains the very simple Jenkins install script
-* 3_project_initialization
+* **3_project_initialization**
   * Contains the scripts to setup the necessary resources initially. In an enterprise setting, this would typically be executed by an admin with elevated rights
-* 4_helloworld
+* **4_helloworld**
   * Contains the scripts and code for the example Spring/Boot application
 
 ## Structure
