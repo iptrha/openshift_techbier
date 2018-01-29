@@ -96,7 +96,7 @@ We have applied a convention throughout the repo that:
 ### I am getting ```xcrun: error: (...)``` when running git. What can I do?
 Install XCode commandline tools ```xcode-select --install``` (see [here]( https://stackoverflow.com/questions/32893412/command-line-tools-not-working-os-x-el-capitan-macos-sierra-macos-high-sierra/32894314#32894314) for more details)
 
-### How to install Minishift on OSX?**
+### How to install Minishift on OSX?
 Make your life easy and install [HomeBrew](https://brew.sh/index_de.html):
 ```bash
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
