@@ -77,8 +77,8 @@ We have applied a convention throughout the repo that:
     ````bash
     cd ../scripts
     sh create_helloworld_pipeline.sh
-    ```
-    
+    ````
+    
 # Support
 
 ## OSX
