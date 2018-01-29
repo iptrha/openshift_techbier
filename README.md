@@ -108,5 +108,5 @@ eval $(minishift oc-env)
 ```
 
 ## Windows
-### How to install Minishift on Windows?**
+### How to install Minishift on Windows?
 Maybe this guide can help you, if you are lost: [bierkowski.com](https://bierkowski.com/minishift-setup-on-windows/)
