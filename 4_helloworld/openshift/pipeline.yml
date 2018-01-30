@@ -15,4 +15,4 @@ spec:
         - name: GIT_BRANCH
           value: "master"
         - name: OPENSHIFT_URL
-          value: 192.168.64.2
+          value: 192.168.64.5
